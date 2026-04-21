@@ -1,0 +1,180 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 21, 2026, 12:19:50 PM
+    Author     : user
+*/
+
+/* Basic Settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+/* --- NAVIGATION BAR --- */
+.header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); 
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    border: none;
+    color: #ffffff;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* --- CARDS & BOXES --- */
+.card {
+    background: #ffffff;
+    padding: 0; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Colorful Title Bar */
+.form-title, .result-box h3 {
+    background-color: #396574; 
+    color: black;
+    margin: 0;
+    padding: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* Content inside the card */
+.card-body {
+    padding: 30px;
+}
+
+/* --- INPUTS --- */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #2d3436;
+}
+
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+input[type="number"]:focus {
+    border-color: #74b9ff;
+    outline: none;
+}
+
+/* --- BUTTONS --- */
+.btn-submit {
+    background-color: #55efc4; 
+    color: #2d3436;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 0 #00b894;
+}
+
+.btn-submit:hover {
+    background-color: #00b894;
+    color: white;
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #00b894;
+}
+
+/* --- RESULT PAGE --- */
+.result-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.result-box {
+    background: #74a1b4; 
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    text-align: center;
+}
+
+.result-box h3 {
+    background-color: #5c87ea; 
+}
+
+.result-content {
+    padding: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Table styling for Health Info */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background-color: #0984e3;
+    color: white;
+    padding: 15px;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #636e72;
+}
